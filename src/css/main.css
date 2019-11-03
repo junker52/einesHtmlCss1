@@ -14,3 +14,10 @@
     height: auto;
 }
 
+.text-article {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
