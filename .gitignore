@@ -102,3 +102,5 @@ public
 .vscode/settings.json
 
 .vscode/
+
+dist/
