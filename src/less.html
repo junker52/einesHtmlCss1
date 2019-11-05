@@ -29,10 +29,10 @@
     
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="preprocesadores.html">Preprocesadores</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="frameworks.html">Frameworks</a>
           </li>
         </ul>
@@ -46,26 +46,28 @@
           <div class="col-12 text-center">
             <article class="shadow card border-secondary w-100 p-2 my-2">                
                 <div class="card-body text-justify pt-5 pb-5">
-                  <h2 class="card-title">Echando un vistazo a ReactJS, una idea de Facebook</h2>
+                  <h2 class="card-title">Echando un vistazo a Less, la otra cara del <i>smarter</i> CSS</h2>
                   <small class="text-muted">Por Ricard Molina Ferret</small>
                   <hr>
                   <section class="my-4">
-                    <p class="my-2 text-article">React es una librería Javascript focalizada en el desarrollo de interfaces de usuario. Así se define la propia librería y evidentemente, esa es su principal área de trabajo. Sin embargo, lo cierto es que en React encontramos un excelente aliado para hacer todo tipo de aplicaciones web, SPA (Single Page Application) o incluso aplicaciones para móviles. Para ello, alrededor de React existe un completo ecosistema de módulos, herramientas y componentes capaces de ayudar al desarrollador a cubrir objetivos avanzados con relativamente poco esfuerzo.</p>
+                    <p class="my-2 text-article">LESS es un super contexto de CSS que pretende dotarlo de un comportamiento dinámico a través de variables, mixins, operaciones y funciones. Para utilizar LESS no necesitas un plug-in ni nada especial. La idea detrás de la herramienta es que el navegador interpreta código CSS normal y corriente producido a través de un proceso de compilación de nuestras plantillas escritas en LESS.</p>
                   </section>
                   <section class="my-4 offset-3 col-6">
-                    <div class="embed-responsive embed-responsive-16by9 my-2">                
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N3AkSS5hXMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9 my-2">                                        
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IkrQfRwcih4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                  </section>
-                  
+                  </section>                  
                   <section class="my-4">
-                        <p class="my-2 text-article">React utiliza el llamado HTML virtual DOM, el cual se renderiza mucho más rapido que el HTML tradiccional ya que no se calculan sus estilos CSS. Cuando el virtual DOM cambia se genera uno nuevo y se calcula las diferencias con el anterior virtual DOM. Por último React genera los cambios pertinentes en el HTML.</p>
+                        <p class="my-2 text-article"> Lo único que cambia respecto al CSS es que las plantillas LESS deben ser compiladas. Si usamos un servidor Web basado en Node.js o bien servimos nuestras hojas de estilo CSS por medio de un servidor estatico, podemos compilar nuestras plantillas LESS en tiempo de ejecución (del servidor) utilizando para ello Node.</p>
+                  </section>
+                  <section class="my-4">
+                        <p class="my-2 text-article">Las variables nos permiten definir en un solo lugar un valor y luego usarla en múltiples sitios de nuestro código CSS. Esto nos permite maximizar la reutilizacion de codigo. Asi, si tenemos que modificar una variable, solo tendremos que cambiarlo solo en un lugar de nuestro archivo CSS.</p>
                   </section>
                   <figure class="my-4 text-center">
-                        <img src="./img/react-component.png" class="img-fluid m-auto w-50 h-50" alt="">
+                    <img src="./img/less-code.png" class="img-fluid m-auto w-50 h-50" alt="">
                   </figure>
                   <section class="my-4">
-                        <p class="my-2 text-article">React se estructura y se basa en la creacion y reutilizacion de componentes, como el que se muestrar en la imagen superior. El componente combina una vista en HTML con una cierta logica en forma de codigo Javascript. Los ficheros de React tienen una extension propia, .JSX </p>
+                    <p class="my-2 text-article">Para finalizar, mostramos un fragmento de codigo CSS escrito en LESS donde se puede ver la anidacion de reglas: un recurso muy valioso para la ordenacion y la mantenibilidad del codigo. </p>
                   </section>
                 </div>
             </article>

@@ -29,10 +29,10 @@
     
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="preprocesadores.html">Preprocesadores</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="frameworks.html">Frameworks</a>
           </li>
         </ul>
@@ -46,26 +46,31 @@
           <div class="col-12 text-center">
             <article class="shadow card border-secondary w-100 p-2 my-2">                
                 <div class="card-body text-justify pt-5 pb-5">
-                  <h2 class="card-title">Echando un vistazo a ReactJS, una idea de Facebook</h2>
+                  <h2 class="card-title">Echando un vistazo a Sass, el CSS inteligente</h2>
                   <small class="text-muted">Por Ricard Molina Ferret</small>
                   <hr>
                   <section class="my-4">
-                    <p class="my-2 text-article">React es una librería Javascript focalizada en el desarrollo de interfaces de usuario. Así se define la propia librería y evidentemente, esa es su principal área de trabajo. Sin embargo, lo cierto es que en React encontramos un excelente aliado para hacer todo tipo de aplicaciones web, SPA (Single Page Application) o incluso aplicaciones para móviles. Para ello, alrededor de React existe un completo ecosistema de módulos, herramientas y componentes capaces de ayudar al desarrollador a cubrir objetivos avanzados con relativamente poco esfuerzo.</p>
+                    <p class="my-2 text-article">SASS es un motor de preprocesado de CSS que permite agilizar y hacer mas eficaz la escritura de nuestras hojas de estilos. La principal ventaja de SASS es la posibilidad de convertir los CSS en algo dinámico. Permite trabajar mucho más rápido en la creación de código con la posibilidad de crear funciones que realicen ciertas operaciones matemáticas y reutilizar código gracias a los mixins, variables que nos permiten guardar valores. SASS, en definitiva, se convierte en tu mejor ayudante.</p>
                   </section>
                   <section class="my-4 offset-3 col-6">
                     <div class="embed-responsive embed-responsive-16by9 my-2">                
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N3AkSS5hXMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M4CltAflU2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                  </section>
-                  
+                  </section>                  
                   <section class="my-4">
-                        <p class="my-2 text-article">React utiliza el llamado HTML virtual DOM, el cual se renderiza mucho más rapido que el HTML tradiccional ya que no se calculan sus estilos CSS. Cuando el virtual DOM cambia se genera uno nuevo y se calcula las diferencias con el anterior virtual DOM. Por último React genera los cambios pertinentes en el HTML.</p>
+                    <p class="my-2 text-article">Permite reutilizar valores que podemos manejar desde un solo sitio de forma sencilla y centralizada.</p> 
+                    <code>
+                        $brand: #F98355;</br>
+                        body{
+                        color:$brand;
+                        }
+                    </code>
                   </section>
-                  <figure class="my-4 text-center">
-                        <img src="./img/react-component.png" class="img-fluid m-auto w-50 h-50" alt="">
-                  </figure>
                   <section class="my-4">
-                        <p class="my-2 text-article">React se estructura y se basa en la creacion y reutilizacion de componentes, como el que se muestrar en la imagen superior. El componente combina una vista en HTML con una cierta logica en forma de codigo Javascript. Los ficheros de React tienen una extension propia, .JSX </p>
+                        <p class="my-2 text-article">Los mixins son muy útiles cuando trabajas con CSS3. Tienes varios prefijos según el navegador para que, solo llamando al mixin y pasando el valor que te interese personalizar, incorpore todas las posibilidades de vendor prefixes:  -webkit, -moz, -ms , etc…</p>
+                  </section>
+                  <section class="my-4">
+                    <p class="my-2 text-article">Hay gran variedad de mixins que puedes encontrar a partir de proyectos como <a href="http://compass-style.org" target="_blank" rel="noopener noreferrer">Compass-Style</a>,  <a href="http://bourbon.io/" target="_blank" rel="noopener noreferrer">Bourbon</a> o simplemente buscando en github+sass. Puedes crearte tu propia biblioteca de mixins con los que utilizas de forma más recurrente.</p>
                   </section>
                 </div>
             </article>
