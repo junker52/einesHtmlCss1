@@ -25,3 +25,23 @@
 }
 
 
+/*
+    Animacion imagen
+*/
+.category-img {
+    animation-duration: 3s;
+    animation-name: appearIn;
+}
+
+@keyframes appearIn {
+    from {
+      width: 0;
+      height: 0;
+    }
+  
+    to {
+      width: 6em;
+      height: 4em;
+    }
+}
+
