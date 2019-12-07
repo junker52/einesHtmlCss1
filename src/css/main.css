@@ -20,4 +20,8 @@
     text-align: justify;
 }
 
+#footerImg {
+    clip-path:ellipse(25% 40% at 50% 50%);
+}
+
 
