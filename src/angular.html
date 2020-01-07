@@ -4,25 +4,23 @@
     <title>ReactPedia</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
 
     <!-- Sandstone Bootswatch Theme-->
-    <link rel="stylesheet" href="./css//sanstone.bootstrap.min.css">
+    <link rel="stylesheet" href="./css//sanstone.bootstrap.min.css" media="print" onload="this.media='all'">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/icon.png" />
 
 
-    <!-- Font Awesome-->
-    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
-
-
+    <!-- Font Awesome-->  
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" media="print" onload="this.media='all'">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'">
 
 
   </head>
@@ -124,9 +122,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+    <script defer src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script defer src="../node_modules/popper.js/dist/popper.min.js"></script>
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Script needed to launch compilation-->
+    <script defer src="js/index.js"></script>
   </body>
 </html>
